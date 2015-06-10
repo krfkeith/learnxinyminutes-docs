@@ -21,7 +21,7 @@ There are eight commands:
 - : Decrements the value at the current cell by one.
 > : Moves the data pointer to the next cell (cell on the right).
 < : Moves the data pointer to the previous cell (cell on the left).
-. : Prints the ASCII value at the current cell (i.e. 65 = 'A').
+. : Prints the ASCII value at the current cell (e.g. 65 = 'A').
 , : Reads a single input character into the current cell.
 [ : If the value at the current cell is zero, skips to the corresponding ] .
     Otherwise, move to the next instruction.
